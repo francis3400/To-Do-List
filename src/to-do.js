@@ -1,6 +1,5 @@
 import { check } from './validate.js';
 
-const InnerTodo = document.querySelector('.todo-body');
 let isEdit = false;
 let editId = null;
 
@@ -55,12 +54,13 @@ export default class display {
   };
 
   static loadTodo = (item) => {
+    const InnerTodo = document.querySelector('.todo-body');
     let display = ' ';
     item.forEach((elem, i) => {
       const completed = elem.completed ? 'completed' : '';
       display += `
       <div class="todo-check flex">
-      <div class="checkbox ${completed}">
+      <div class="flex-2 checkbox ${completed}">
         <input
           type="checkbox" id="${i}" 
          class ="to-do-check"
@@ -68,7 +68,7 @@ export default class display {
           value="Add" maxlength="10"/>
         <label for="todo">${elem.text}</label><br />
       </div>
-      <div class= "check-icons">
+      <div class= "check-icons flex-2">
       <div class="trash">
       <i class="fa-solid fa-trash" id="${i}"></i>
       </div>

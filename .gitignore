@@ -1,1 +1,5 @@
+# node module
 node_modules/
+
+# coverage report
+coverage/
