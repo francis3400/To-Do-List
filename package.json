@@ -17,15 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/francis3400/Webpack-setup.git"
+    "url": "git+https://github.com/francis3400/Webpack-Demo.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/francis3400/Webpack-setup/issues"
+    "url": "https://github.com/francis3400/Webpack-Demo/issues"
   },
-  "homepage": "https://github.com/francis3400/Webpack-setup#readme",
+  "homepage": "https://github.com/francis3400/Webpack-Demo#readme",
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.19.6",
     "babel-eslint": "^10.1.0",
