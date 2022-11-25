@@ -69,7 +69,7 @@ describe('Delete task item', () => {
 
     window.localStorage.setItem('todo', JSON.stringify([obj1, obj2]));
   });
-  
+
   test('Remove task from local storage', () => {
     const removeTodoOnSpy = jest.spyOn(Display, 'removeTodo');
     Display.removeTodo(1);
