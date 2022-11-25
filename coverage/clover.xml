@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1669388944888" clover="3.2.0">
-  <project timestamp="1669388944889" name="All files">
+<coverage generated="1669398980617" clover="3.2.0">
+  <project timestamp="1669398980618" name="All files">
     <metrics statements="85" coveredstatements="53" conditionals="14" coveredconditionals="7" methods="24" coveredmethods="13" elements="123" coveredelements="73" complexity="0" loc="85" ncloc="85" packages="1" files="2" classes="2"/>
     <file name="to-do.js" path="C:\Users\DELL\Desktop\Microverse\To-Do-List\src\to-do.js">
       <metrics statements="73" coveredstatements="51" conditionals="12" coveredconditionals="7" methods="19" coveredmethods="13"/>
