@@ -42,9 +42,19 @@ To run the project do the following:
 
 ## Author
 
+👤 **Francis Uche**
+
 - GitHub: [@francis3400](https://github.com/francis3400)
 - Twitter: [@francisBlinkz](https://twitter.com/francisBlinkz)
 - LinkedIn: [/francis-uche-888675213/](https://www.linkedin.com/in/francis-uche-888675213)
+
+👤 **Engr. Animashaun Fisayo**
+
+- [GitHub](https://github.com/fmanimashaun)
+- [Twitter](https://twitter.com/fmanimashaun)
+- [LinkedIn](https://www.linkedin.com/in/fmanimashaun/)
+- [Website](https://fmanimashaun.com)
+
 
 ## 🤝 Contributing
 
