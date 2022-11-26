@@ -48,6 +48,14 @@ To run the project do the following:
 - Twitter: [@francisBlinkz](https://twitter.com/francisBlinkz)
 - LinkedIn: [/francis-uche-888675213/](https://www.linkedin.com/in/francis-uche-888675213)
 
+
+👤 **TUMBU BARTHOLOMEW ELAD**
+
+ GitHub: [@githubhandle](https://github.com/elad237)
+- Twitter: [@twitterhandle](https://twitter.com/Elad59380989)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/tumbu-elad-896ab2183/)
+
+
 👤 **Engr. Animashaun Fisayo**
 
 - [GitHub](https://github.com/fmanimashaun)
