@@ -1,32 +1,32 @@
 /* eslint-disable quotes */
-import './style.css';
+import "./style.css";
 
-const InnerTodo = document.querySelector('.todo-body');
+const InnerTodo = document.querySelector(".todo-body");
 
 const ToDoProperties = [
   {
-    description: 'Will Vist the Gym',
+    description: "Will Vist the Gym",
     completed: true,
     i: 0,
   },
   {
-    description: 'Will Be Reading',
+    description: "Will Be Reading",
     completed: true,
     i: 1,
   },
   {
-    description: 'Wash',
+    description: "Wash",
     completed: true,
     i: 2,
   },
   {
-    description: 'Go to club',
+    description: "Go to club",
     completed: true,
     i: 3,
   },
 ];
 
-let display = ' ';
+let display = " ";
 const loadTasks = (item) => {
   item.forEach((elem) => {
     display += `
