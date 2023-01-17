@@ -26,7 +26,7 @@ const ToDoProperties = [
   },
 ];
 
-let display = " ";
+let display = "";
 const loadTasks = (item) => {
   item.forEach((elem) => {
     display += `
@@ -47,3 +47,4 @@ const loadTasks = (item) => {
   InnerTodo.innerHTML = display;
 };
 loadTasks(ToDoProperties);
+
