@@ -1,3 +1,4 @@
+
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <img src="img/microverse-logo.png" alt="logo" width="140"  height="auto" />
@@ -87,6 +88,8 @@ You can deploy this project using Github pages
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
+
+## Author
 
 👤 **Francis Uche**
 
