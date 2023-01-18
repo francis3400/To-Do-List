@@ -47,5 +47,3 @@ const loadTasks = (item) => {
   InnerTodo.innerHTML = display;
 };
 loadTasks(ToDoProperties);
-
-
