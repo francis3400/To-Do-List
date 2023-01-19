@@ -1,5 +1,4 @@
 /** @jest-environment jsdom */
-
 import Display from './to-do.js';
 
 describe('Add new task', () => {
