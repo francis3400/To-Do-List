@@ -23,3 +23,4 @@ edittodoForm.addEventListener("submit", (e) => {
   document.querySelector(".type-task").style.display = "block";
   edittodoForm.style.display = "none";
 });
+
