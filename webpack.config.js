@@ -1,4 +1,3 @@
-/* eslint-disable quotes */
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
@@ -16,7 +15,7 @@ module.exports = {
       template: './src/index.html',
     }),
   ],
-  /* eslint-disable no-dupe-keys */
+
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
