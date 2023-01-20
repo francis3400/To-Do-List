@@ -21,3 +21,4 @@ window.addEventListener("DOMContentLoaded", () => {
 enterBtn.addEventListener("click", () => {
   display.addTodo();
 });
+
