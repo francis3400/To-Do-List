@@ -7,22 +7,22 @@ const ToDoProperties = [
   {
     description: "Will Vist the Gym",
     completed: true,
-    i: 0,
+    i: 1,
   },
   {
     description: "Will Be Reading",
     completed: true,
-    i: 1,
+    i: 2,
   },
   {
     description: "Wash",
     completed: true,
-    i: 2,
+    i: 3,
   },
   {
     description: "Go to club",
     completed: true,
-    i: 3,
+    i: 4,
   },
 ];
 
