@@ -1,49 +1,25 @@
 /* eslint-disable quotes */
 import "./style.css";
+import display from "./to-do.js";
 
-const InnerTodo = document.querySelector(".todo-body");
+const edittodoForm = document.querySelector("#edit-todo-item");
+const enterBtn = document.querySelector(".enter-btn");
+const editTodoFormInput = document.querySelector(".todo-edit-input");
 
-const ToDoProperties = [
-  {
-    description: "Will Vist the Gym",
-    completed: true,
-    i: 0,
-  },
-  {
-    description: "Will Be Reading",
-    completed: true,
-    i: 1,
-  },
-  {
-    description: "Wash",
-    completed: true,
-    i: 2,
-  },
-  {
-    description: "Go to club",
-    completed: true,
-    i: 3,
-  },
-];
+window.addEventListener("DOMContentLoaded", () => {
+  const task = display.getTodo();
+  display.loadTodo(task);
+});
 
-let display = "";
-const loadTasks = (item) => {
-  item.forEach((elem) => {
-    display += `
-    <div class="todo-check flex">
-    <div class="checkbox">
-      <input
-        type="checkbox"
-        id="to-do-check"
-        name="To-Do"
-        value="Add"
-      />
-      <label for="todo">${elem.description}</label><br />
-    </div>
-    <i class="fa-solid fa-ellipsis-vertical"></i>
-  </div>
-  <hr />`;
-  });
-  InnerTodo.innerHTML = display;
-};
-loadTasks(ToDoProperties);
+enterBtn.addEventListener("click", () => {
+  display.addTodo();
+});
+
+edittodoForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  const id = Number(editTodoFormInput.getAttribute("id"));
+  display.updateTaskInput(editTodoFormInput.value, id);
+  editTodoFormInput.value = "";
+  document.querySelector(".type-task").style.display = "block";
+  edittodoForm.style.display = "none";
+});
