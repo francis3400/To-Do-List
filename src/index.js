@@ -5,6 +5,8 @@ import { clearCompleted } from "./validate.js";
 
 const enterBtn = document.querySelector(".enter-btn");
 const clearCheck = document.querySelector(".clear");
+const noOutline = document.querySelector(".type-task");
+const syncBtn = document.querySelector(".sync-btn");
 
 clearCheck.addEventListener("click", () => {
   const task = display.getTodo();
@@ -21,3 +23,11 @@ window.addEventListener("DOMContentLoaded", () => {
 enterBtn.addEventListener("click", () => {
   display.addTodo();
 });
+
+noOutline.onchange = (e) => {
+  display.addTodo(e);
+};
+
+syncBtn.onclick = () => {
+  window.location.reload();
+};
