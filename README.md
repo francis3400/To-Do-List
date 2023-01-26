@@ -37,7 +37,7 @@ To run the project do the following:
 - Install Live Server Extension on VS Code
 - Open the index.html file
 - Click on Live Server button on the base of your VS Code
-- Wait for a new tab to open
+- Wait for a new tab to open..
 - Voila! Your project is Live. You can procceed to make changes to the files
 
 ## Author
