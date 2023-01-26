@@ -129,7 +129,6 @@ describe('Clear completed', () => {
     const toDos = JSON.parse(window.localStorage.getItem('todo'));
     const todo = clearCompleted(toDos);
     window.localStorage.setItem('todo', JSON.stringify(todo));
-    // eslint-disable-next-line no-unused-vars
     const result = JSON.parse(window.localStorage.getItem('todo'));
     Display.loadTodo(todo);
     const InnerTodo = document.querySelector('.todo-body');
