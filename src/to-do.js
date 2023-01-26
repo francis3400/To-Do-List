@@ -1,5 +1,6 @@
 import { check } from './validate.js';
 
+const InnerTodo = document.querySelector('.todo-body');
 let isEdit = false;
 let editId = null;
 
@@ -54,13 +55,13 @@ export default class display {
   };
 
   static loadTodo = (item) => {
-    const InnerTodo = document.querySelector('.todo-body');
     let display = ' ';
     item.forEach((elem, i) => {
       const completed = elem.completed ? 'completed' : '';
-      display += `
+      if (elem.completed === false) {
+        display += `
       <div class="todo-check flex">
-      <div class="flex-2 checkbox ${completed}">
+      <div class="checkbox ${completed}">
         <input
           type="checkbox" id="${i}" 
          class ="to-do-check"
@@ -68,7 +69,7 @@ export default class display {
           value="Add" maxlength="10"/>
         <label for="todo">${elem.text}</label><br />
       </div>
-      <div class= "check-icons flex-2">
+      <div class= "check-icons">
       <div class="trash">
       <i class="fa-solid fa-trash" id="${i}"></i>
       </div>
@@ -76,6 +77,26 @@ export default class display {
       </div>
     </div>
     <hr />`;
+      } else {
+        display += `
+      <div class="todo-check flex">
+      <div class="checkbox ${completed}">
+        <input
+          type="checkbox" id="${i}" 
+         class ="to-do-check"
+          name="To-Do"
+          value="Add" maxlength="10" checked>
+        <label for="todo" class="line_stroke" >${elem.text}</label><br />
+      </div>
+      <div class= "check-icons">
+      <div class="trash">
+      <i class="fa-solid fa-trash" id="${i}"></i>
+      </div>
+      <i class="edit-btn vertical-menu fa-solid fa-ellipsis-vertical" id="${i}"></i>
+      </div>
+    </div>
+    <hr />`;
+      }
     });
     InnerTodo.innerHTML = display;
     this.addRemoveEvent();
@@ -83,7 +104,8 @@ export default class display {
     this.checkEvent();
   };
 
-  static addTodo = () => {
+  static addTodo = (e) => {
+    e.preventDefault();
     const text = document.querySelector('.type-task').value;
     if (text !== '') {
       const toDos = display.getTodo();

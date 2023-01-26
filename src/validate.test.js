@@ -9,7 +9,6 @@ describe('Edit task', () => {
     jest.clearAllMocks();
     localStorage.setItem.mockClear();
     document.body.innerHTML = `
-  
       <div class="todo-body"></div>
       <div class="todo-edit flex">
                 <input
