@@ -129,7 +129,7 @@ describe('Clear completed', () => {
     const toDos = JSON.parse(window.localStorage.getItem('todo'));
     const todo = clearCompleted(toDos);
     window.localStorage.setItem('todo', JSON.stringify(todo));
-    const result = JSON.parse(window.localStorage.getItem('todo'));
+    // const result = JSON.parse(window.localStorage.getItem('todo'));
     Display.loadTodo(todo);
     const InnerTodo = document.querySelector('.todo-body');
     expect(InnerTodo.textContent).toBe(' ');
