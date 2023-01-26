@@ -127,4 +127,21 @@ export default class display {
       document.querySelector('.type-task').value = '';
     }
   };
+  static editTodo = (id) => {
+    const toDos = display.getTodo();
+    const findTodo = toDos.find((item, index) => index === id);
+    document.querySelector('.type-task').value = findTodo.text;
+    isEdit = true;
+    editId = id;
+  };
+
+  static editEvent = () => {
+    const editButton = document.querySelectorAll('.edit-btn');
+    editButton.forEach((task, i) => {
+      task.addEventListener('click', (ev) => {
+        ev.preventDefault();
+        this.editTodo(i);
+      });
+    });
+  };
 }
