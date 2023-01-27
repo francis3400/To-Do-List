@@ -127,6 +127,7 @@ export default class display {
       document.querySelector('.type-task').value = '';
     }
   };
+
   static editTodo = (id) => {
     const toDos = display.getTodo();
     const findTodo = toDos.find((item, index) => index === id);
