@@ -79,13 +79,13 @@ Clone this repository to your desired folder:
 
 To run the project, open the index.html file using a web browser
 
-### Deployment
-
-You can deploy this project using Github pages
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 👥 Authors <a name="authors"></a>
+- Clone the repository into a folder
+- Open the folder with your code editor (say; VS Code)
+- Install Live Server Extension on VS Code
+- Open the index.html file
+- Click on Live Server button on the base of your VS Code
+- Wait for a new tab to open..
+- Voila! Your project is Live. You can procceed to make changes to the files
 
 ## Author
 
@@ -106,7 +106,12 @@ You can deploy this project using Github pages
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+👤 **Majekodunmi Ayomipo**
+
+- [GitHub](https://github.com/AyomipoMajek)
+- [LinkedIn](https://www.linkedin.com/in/ayomipo-majek-977569185/)
+
+ Describe 1 - 3 features you will add to the project.
 
 - [ ] **[Desktop Version]**
 - [ ] **[Transitions and animations]**
@@ -125,16 +130,12 @@ Feel free to check the [issues page](../../issues/).
 
 If you like this project follow me on GitHub, twitter and LinkedIn
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-I would like to thank my coding partners and standup team for their encouragements
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+<<<<<<< HEAD
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](MIT.md) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+=======
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
