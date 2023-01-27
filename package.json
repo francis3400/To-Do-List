@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest --coverage",
     "start": "webpack serve --open",
-    "build": "webpack"
+    "build": "webpack",
+    "watch": "jest --watch *.js"
   },
   "jest": {
     "resetMocks": false,

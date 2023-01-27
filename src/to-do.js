@@ -1,6 +1,5 @@
 import { check } from './validate.js';
 
-const InnerTodo = document.querySelector('.todo-body');
 let isEdit = false;
 let editId = null;
 
@@ -55,6 +54,7 @@ export default class display {
   };
 
   static loadTodo = (item) => {
+    const InnerTodo = document.querySelector('.todo-body');
     let display = ' ';
     item.forEach((elem, i) => {
       const completed = elem.completed ? 'completed' : '';
@@ -104,8 +104,7 @@ export default class display {
     this.checkEvent();
   };
 
-  static addTodo = (e) => {
-    e.preventDefault();
+  static addTodo = () => {
     const text = document.querySelector('.type-task').value;
     if (text !== '') {
       const toDos = display.getTodo();

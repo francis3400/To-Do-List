@@ -97,6 +97,13 @@ You can deploy this project using Github pages
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+👤 **Majekodunmi Ayomipo**
+
+- GitHub: [@AyomipoMajek](https://github.com/AyomipoMajek)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ayomipo-majek-977569185/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 🔭 Future Features <a name="future-features"></a>
 
 > Describe 1 - 3 features you will add to the project.
