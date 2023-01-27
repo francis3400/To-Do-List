@@ -26,7 +26,7 @@ describe('Edit task', () => {
       index: 1,
     };
     const obj2 = {
-      text: 'Visit the gym with Trina',
+      text: 'Visit the gym with Linda',
       completed: false,
       index: 2,
     };
@@ -39,7 +39,7 @@ describe('Edit task', () => {
     expect(editTodoOnSpy).toHaveBeenCalledTimes(1);
     const result = JSON.parse(window.localStorage.getItem('todo'));
     expect(result.length).toBe(2);
-    expect(result[0].text).toBe('Visit the gym with Andre');
+    expect(result[1].text).toBe('Visit the gym with Linda');
   });
 });
 
